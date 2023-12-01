@@ -1,38 +1,42 @@
-/* Enhanced style.css */
+
 
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    background-color: #e4e4e7; /* Softer background */
+    background-color: 
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('gt.jfif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
     background-color: white;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); 
     width: 450px; /* Slightly wider */
     margin: 20px;
-    background: rgba(255, 255, 255, 0.9); /* More opaque */
+    background: rgba(255, 255, 255, 0.9); 
 }
 
 h1 {
-    color: #0056b3; /* Deeper blue */
+    color: #0056b3; 
     text-align: center;
     margin-bottom: 30px;
-    font-size: 24px; /* Larger font size */
+    font-size: 24px;
 }
 
 label {
     display: block;
     margin-bottom: 8px;
-    color: #444; /* Darker gray for better contrast */
-    font-weight: 600; /* Bolder */
+    color: #444; 
+    font-weight: 600; 
 }
 
 input[type="text"],
@@ -41,14 +45,14 @@ select {
     width: 100%;
     padding: 12px;
     margin-bottom: 25px;
-    border: 1px solid #ccc; /* Lighter border */
+    border: 1px solid #ccc; 
     border-radius: 5px;
     box-sizing: border-box;
-    background: #fff; /* Pure white background */
+    background: #fff; 
 }
 
 input[type="submit"] {
-    background-color: #007bff; /* Brighter blue */
+    background-color: #007bff; 
     color: white;
     border: none;
     padding: 12px;
@@ -60,10 +64,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0069d9; /* Slightly darker on hover */
+    background-color: #0069d9; 
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
     .container {
         width: 95%;
